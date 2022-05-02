@@ -6,7 +6,7 @@ class Paginainicial extends StatefulWidget {
   _PaginainicialState createState() => _PaginainicialState();
 } // widget con estado
 
-class _Paginainicial extends State<Paginainicial> {
+class _PaginaInicial extends State<Paginainicial> {
   List<String> images = [
     "assets/images/bebidas.jpg",
     "assets/images/productos.jpg",
