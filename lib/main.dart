@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:delossantos/gridviewarticulos.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(SmartApp());
 } // funcion principal
 
-class MyApp extends StatelessWidget {
+class SmartApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -14,6 +14,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.green,
         ),
-        home: MyHomePage());
+        home: Paginainicial());
   }
 } // widget sin estado
