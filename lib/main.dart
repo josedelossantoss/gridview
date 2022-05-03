@@ -3,7 +3,7 @@ import 'package:delossantos/gridviewarticulos.dart';
 
 void main() {
   runApp(SmartApp());
-} // funcion principal
+} //FUNCION PRINCIPAL
 
 class SmartApp extends StatelessWidget {
   @override
@@ -12,8 +12,8 @@ class SmartApp extends StatelessWidget {
         title: 'Aprendiendo GridView',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
-          primarySwatch: Colors.green,
+          primarySwatch: Colors.red,
         ),
-        home: Paginainicial());
+        home: PaginaInicial());
   }
-} // widget sin estado
+} //WIDGET SIN ESTADO
